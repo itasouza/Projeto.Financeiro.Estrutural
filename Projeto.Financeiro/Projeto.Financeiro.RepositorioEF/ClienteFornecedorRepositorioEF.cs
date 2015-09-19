@@ -23,14 +23,39 @@ namespace Projeto.Financeiro.RepositorioEF
         {
             if (entidade.IDCLIENTEFORNECEDOR > 0)
             {
-                //todo:falta dados do cliente é fornecedor
-                //var Alterar = contexto.ClienteFornecedor.First(x => x.IDCLIENTEFORNECEDOR == entidade.IDCLIENTEFORNECEDOR);
-                //Alterar.RAZAO_SOCIAL = entidade.RAZAO_SOCIAL;
-                //Alterar.ENDERECO = entidade.ENDERECO;
-                //Alterar.BAIRRO = entidade.BAIRRO;
-                //Alterar.CIDADE = entidade.CIDADE;
-                //Alterar.IMAGEM_LOGO = entidade.IMAGEM_LOGO;
-                //Alterar.STATUS = entidade.STATUS;
+
+                var Alterar = contexto.ClienteFornecedor.First(x => x.IDCLIENTEFORNECEDOR == entidade.IDCLIENTEFORNECEDOR);
+                Alterar.CODIGO = entidade.CODIGO;
+                Alterar.TIPO = entidade.TIPO;
+                Alterar.RAZAO_SOCIAL = entidade.RAZAO_SOCIAL;
+                Alterar.ENDERECO = entidade.ENDERECO;
+                Alterar.NUMERO = entidade.NUMERO;
+                Alterar.COMPLEMENTO = entidade.COMPLEMENTO;
+                Alterar.BAIRRO = entidade.BAIRRO;
+                Alterar.TELEFONE = entidade.TELEFONE;
+                Alterar.CELULAR = entidade.CELULAR;
+                Alterar.CIDADE = entidade.CIDADE;
+                Alterar.UF = entidade.UF;
+                Alterar.CEP = entidade.CEP;
+                Alterar.CNPJ = entidade.CNPJ;
+                Alterar.NOME_ADMINISTRADOR = entidade.NOME_ADMINISTRADOR;
+                Alterar.DATA_NASCIMENTO = entidade.DATA_NASCIMENTO;
+                Alterar.EMAIL = entidade.EMAIL;
+                Alterar.MSN = entidade.MSN;
+                Alterar.SKYPE = entidade.SKYPE;
+                Alterar.HOME_PAGE = entidade.HOME_PAGE;
+                Alterar.CONTADOR_ESCRITORIO = entidade.CONTADOR_ESCRITORIO;
+                Alterar.CONTADOR_NOME = entidade.CONTADOR_NOME;
+                Alterar.CONTADOR_TELEFONE = entidade.CONTADOR_TELEFONE;
+                Alterar.CONTADOR_CELULAR = entidade.CONTADOR_CELULAR;
+                Alterar.CONTADOR_EMAIL = entidade.CONTADOR_EMAIL;
+                Alterar.DESPACHANTE_NOME = entidade.DESPACHANTE_NOME;
+                Alterar.DESPACHANTE_TELEFONE = entidade.DESPACHANTE_TELEFONE;
+                Alterar.DESPACHANTE_CELULAR = entidade.DESPACHANTE_CELULAR;
+                Alterar.DESPACHANTE_EMAIL = entidade.DESPACHANTE_EMAIL;
+                Alterar.IDEMPRESA = entidade.IDEMPRESA;
+                Alterar.IDUSUARIO = entidade.IDUSUARIO;
+                Alterar.STATUS = entidade.STATUS;
 
                 //implementar IEntidade nos Models para salvar as datas DATA_ALTERACAO e DATA_INCLUSAO
             }
