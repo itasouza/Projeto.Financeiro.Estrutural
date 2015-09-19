@@ -1,0 +1,8 @@
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Dominio\obj\Debug\Projeto.Financeiro.Dominio.csprojResolveAssemblyReference.cache
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Dominio\bin\Debug\Projeto.Financeiro.Dominio.dll
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Dominio\bin\Debug\Projeto.Financeiro.Dominio.pdb
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Dominio\obj\Debug\Projeto.Financeiro.Dominio.dll
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Dominio\obj\Debug\Projeto.Financeiro.Dominio.pdb
+E:\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Dominio\obj\Debug\Projeto.Financeiro.Dominio.csprojResolveAssemblyReference.cache
+E:\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Dominio\obj\Debug\Projeto.Financeiro.Dominio.dll
+E:\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Dominio\obj\Debug\Projeto.Financeiro.Dominio.pdb

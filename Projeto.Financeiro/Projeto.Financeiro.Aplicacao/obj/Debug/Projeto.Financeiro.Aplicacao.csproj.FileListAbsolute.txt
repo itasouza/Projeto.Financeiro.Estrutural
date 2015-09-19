@@ -1,0 +1,12 @@
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Aplicacao\bin\Debug\Projeto.Financeiro.Aplicacao.dll
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Aplicacao\bin\Debug\Projeto.Financeiro.Aplicacao.pdb
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Aplicacao\bin\Debug\Projeto.Financeiro.Dominio.dll
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Aplicacao\bin\Debug\Projeto.Financeiro.Dominio.pdb
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Aplicacao\obj\Debug\Projeto.Financeiro.Aplicacao.csprojResolveAssemblyReference.cache
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Aplicacao\obj\Debug\Projeto.Financeiro.Aplicacao.dll
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Aplicacao\obj\Debug\Projeto.Financeiro.Aplicacao.pdb
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Aplicacao\bin\Debug\Projeto.Financeiro.Aplicacao.dll.config
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Aplicacao\bin\Debug\Projeto.Financeiro.RepositorioEF.dll
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Aplicacao\bin\Debug\EntityFramework.dll
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Aplicacao\bin\Debug\Projeto.Financeiro.RepositorioEF.pdb
+C:\Repositorio\Projeto.Financeiro.Online\Projeto.Financeiro\Projeto.Financeiro.Aplicacao\bin\Debug\EntityFramework.xml
