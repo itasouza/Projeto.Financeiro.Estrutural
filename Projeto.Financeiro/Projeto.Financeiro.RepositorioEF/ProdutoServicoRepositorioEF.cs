@@ -24,14 +24,13 @@ namespace Projeto.Financeiro.RepositorioEF
             if (entidade.IDPRODUTO > 0)
             {
 
-                //todo:falta dados do ProdutoServico
-                //    var Alterar = contexto.ProdutoServico.First(x => x.IDProdutoServico == entidade.IDProdutoServico);
-                //    Alterar.RAZAO_SOCIAL = entidade.RAZAO_SOCIAL;
-                //    Alterar.ENDERECO = entidade.ENDERECO;
-                //    Alterar.BAIRRO = entidade.BAIRRO;
-                //    Alterar.CIDADE = entidade.CIDADE;
-                //    Alterar.IMAGEM_LOGO = entidade.IMAGEM_LOGO;
-                //    Alterar.STATUS = entidade.STATUS;
+                var Alterar = contexto.ProdutoServico.First(x => x.IDPRODUTO == entidade.IDPRODUTO);
+
+                Alterar.DESCRICAO = entidade.DESCRICAO;
+                Alterar.IDEMPRESA = entidade.IDEMPRESA;
+                Alterar.IDPERFIL = entidade.IDPERFIL;
+                Alterar.STATUS = entidade.STATUS;
+
 
                 //implementar IEntidade nos Models para salvar as datas DATA_ALTERACAO e DATA_INCLUSAO
             }

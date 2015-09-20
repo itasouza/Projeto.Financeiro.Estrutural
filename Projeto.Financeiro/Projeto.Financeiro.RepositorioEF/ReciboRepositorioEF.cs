@@ -24,14 +24,18 @@ namespace Projeto.Financeiro.RepositorioEF
             if (entidade.IDRECIBO > 0)
             {
 
-                //todo:falta dados do recibo
-                //    var Alterar = contexto.ProdutoServico.First(x => x.IDProdutoServico == entidade.IDProdutoServico);
-                //    Alterar.RAZAO_SOCIAL = entidade.RAZAO_SOCIAL;
-                //    Alterar.ENDERECO = entidade.ENDERECO;
-                //    Alterar.BAIRRO = entidade.BAIRRO;
-                //    Alterar.CIDADE = entidade.CIDADE;
-                //    Alterar.IMAGEM_LOGO = entidade.IMAGEM_LOGO;
-                //    Alterar.STATUS = entidade.STATUS;
+               var Alterar = contexto.Recibo.First(x => x.IDRECIBO == entidade.IDRECIBO);
+
+                Alterar.IDCLIENTEFORNECEDOR = entidade.IDCLIENTEFORNECEDOR;
+                Alterar.VALOR_RECIBO = entidade.VALOR_RECIBO;
+                Alterar.VALOR_EXTENSO = entidade.VALOR_EXTENSO;
+                Alterar.OBSERVACAO = entidade.OBSERVACAO;
+                Alterar.CIDADE = entidade.CIDADE;
+                Alterar.DATA_RECIBO = entidade.DATA_RECIBO;
+                Alterar.IDEMPRESA = entidade.IDEMPRESA;
+                Alterar.IDUSUARIO = entidade.IDUSUARIO;
+                Alterar.STATUS = entidade.STATUS;
+
 
                 //implementar IEntidade nos Models para salvar as datas DATA_ALTERACAO e DATA_INCLUSAO
             }

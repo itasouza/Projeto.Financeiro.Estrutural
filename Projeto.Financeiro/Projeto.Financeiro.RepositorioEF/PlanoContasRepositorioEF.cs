@@ -23,15 +23,14 @@ namespace Projeto.Financeiro.RepositorioEF
         {
             if (entidade.IDPLANOCONTAS > 0)
             {
+                var Alterar = contexto.PlanoContas.First(x => x.IDPLANOCONTAS == entidade.IDPLANOCONTAS);
+                Alterar.NUMERO_CONTA = entidade.NUMERO_CONTA;
+                Alterar.DESCRICAO_CONTA = entidade.DESCRICAO_CONTA;
+                Alterar.OPERACAO = entidade.OPERACAO;
+                Alterar.IDEMPRESA = entidade.IDEMPRESA;
+                Alterar.IDPERFIL = entidade.IDPERFIL;
+                Alterar.STATUS = entidade.STATUS;
 
-                //todo:falta dados do PlanoContas
-                //    var Alterar = contexto.PlanoContas.First(x => x.IDPlanoContas == entidade.IDPlanoContas);
-                //    Alterar.RAZAO_SOCIAL = entidade.RAZAO_SOCIAL;
-                //    Alterar.ENDERECO = entidade.ENDERECO;
-                //    Alterar.BAIRRO = entidade.BAIRRO;
-                //    Alterar.CIDADE = entidade.CIDADE;
-                //    Alterar.IMAGEM_LOGO = entidade.IMAGEM_LOGO;
-                //    Alterar.STATUS = entidade.STATUS;
 
                 //implementar IEntidade nos Models para salvar as datas DATA_ALTERACAO e DATA_INCLUSAO
             }

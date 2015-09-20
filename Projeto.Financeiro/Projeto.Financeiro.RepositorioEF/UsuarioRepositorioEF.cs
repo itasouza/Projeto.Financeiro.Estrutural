@@ -24,14 +24,29 @@ namespace Projeto.Financeiro.RepositorioEF
             if (entidade.IDUSUARIO > 0)
             {
 
-                //todo:falta dados do usuario
-                //    var Alterar = contexto.ProdutoServico.First(x => x.IDProdutoServico == entidade.IDProdutoServico);
-                //    Alterar.RAZAO_SOCIAL = entidade.RAZAO_SOCIAL;
-                //    Alterar.ENDERECO = entidade.ENDERECO;
-                //    Alterar.BAIRRO = entidade.BAIRRO;
-                //    Alterar.CIDADE = entidade.CIDADE;
-                //    Alterar.IMAGEM_LOGO = entidade.IMAGEM_LOGO;
-                //    Alterar.STATUS = entidade.STATUS;
+               var Alterar = contexto.Usuario.First(x => x.IDUSUARIO == entidade.IDUSUARIO);
+
+                Alterar.IDEMPRESA = entidade.IDEMPRESA;
+                Alterar.IDPERFIL = entidade.IDPERFIL;
+                Alterar.NOME_USUARIO = entidade.NOME_USUARIO;
+                Alterar.TELEFONE = entidade.TELEFONE;
+                Alterar.EMAIL = entidade.EMAIL;
+                Alterar.CELULAR = entidade.CELULAR;
+                Alterar.VENDEDOR = entidade.VENDEDOR;
+                Alterar.PARCEIRO = entidade.PARCEIRO;
+                Alterar.JURIDICO = entidade.JURIDICO;
+                Alterar.ENDERECO = entidade.ENDERECO;
+                Alterar.NUMERO = entidade.NUMERO;
+                Alterar.COMPLEMENTO = entidade.COMPLEMENTO;
+                Alterar.BAIRRO = entidade.BAIRRO;
+                Alterar.CIDADE = entidade.CIDADE;
+                Alterar.CEP = entidade.CEP;
+                Alterar.CNPJ = entidade.CNPJ;
+                Alterar.CPF = entidade.CPF;
+                Alterar.SENHA = entidade.SENHA;
+                Alterar.LOGIN = entidade.LOGIN;
+                Alterar.STATUS = entidade.STATUS;
+
 
                 //implementar IEntidade nos Models para salvar as datas DATA_ALTERACAO e DATA_INCLUSAO
             }
